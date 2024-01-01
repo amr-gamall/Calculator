@@ -33,7 +33,7 @@ public class calc {
             frm.setLocation(400, 100);
             
             frm.setLayout(new GridLayout(2, 0));
-            pan.setLayout(new GridLayout(5, 2));
+            pan.setLayout(new GridLayout(7, 3));
             
             pan.setPreferredSize(new Dimension(400, 300));
             ans.setPreferredSize(new Dimension(400, 50));
@@ -111,7 +111,6 @@ public class calc {
                 buffer = "";
                 op = x.getText();
             }
-            // System.out.println("cnt: " + cnt + " op1: " + op1 + " op2: " + op2 + " op: " + op);
         }   
     }
     public static void main(String[] args) {
